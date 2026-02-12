@@ -1,0 +1,24 @@
+{
+	"name": "painknight-theme",
+	"displayName": "painknight-theme",
+	"description": "A darker take on the beloved Palenight material theme for VS Code",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.109.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "PainKnight Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/PainKnight Theme-color-theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.15"
+	}
+}
