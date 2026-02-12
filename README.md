@@ -10,6 +10,10 @@ A darkern take on the beloved Palenight material theme for Visual Studio Code.
 - Improved markdown readability
 - Same material-inspired palette and syntax highlighting as the original
 
+## Screenshots
+
+![image showing color scheme of theme in editor](./screenshots/example.png "TS Example")
+
 ## Installation
 
 1. Open the **Extensions** sidebar in VS Code (`View → Extensions`)

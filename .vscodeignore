@@ -5,3 +5,5 @@ vsc-extension-quickstart.md
 node_modules
 biome.json
 pnpm-lock.yaml
+demos/**
+screenshots/**
