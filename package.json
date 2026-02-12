@@ -1,24 +1,46 @@
 {
-	"name": "painknight-theme",
-	"displayName": "painknight-theme",
-	"description": "A darker take on the beloved Palenight material theme for VS Code",
-	"version": "0.0.1",
-	"engines": {
-		"vscode": "^1.109.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "PainKnight Theme",
-				"uiTheme": "vs-dark",
-				"path": "./themes/PainKnight Theme-color-theme.json"
-			}
-		]
-	},
-	"devDependencies": {
-		"@biomejs/biome": "2.3.15"
-	}
+  "name": "painknight-theme",
+  "displayName": "PainKnight Theme",
+  "publisher": "rossreicks",
+  "author": "Ross Reicks",
+  "description": "A darker take on the beloved Palenight material theme for VS Code. Based on the original Palenight Theme by Olaolu Olawuyi.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "palenight",
+    "material",
+    "painknight"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RossBossDev/painknight-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/RossBossDev/painknight-theme/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#31364A",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "PainKnight Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/painknight-theme-color-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "publisherDisplayName": "Ross Reicks"
+  }
 }
